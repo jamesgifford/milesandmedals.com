@@ -2,8 +2,7 @@
 #==========================================================
 # OS Files
 #==========================================================
-.DS_Store
-.DS_Store?
+*.DS_Store
 ._*
 .Spotlight-V100
 .Trashes
@@ -17,7 +16,8 @@ ehthumbs.db
 *.log
 error_log
 access_log
-.sass-cache
+*.sass-cache*
+*~imageoptim*
 
 #==========================================================
 # Config files
@@ -29,7 +29,8 @@ node_modules
 #==========================================================
 # WP Core, except content
 #==========================================================
-/*
+#/*
+wp-config.php
 !.gitignore
 !wp-content/
 # !media/
@@ -49,14 +50,20 @@ wp-content/*
 #==========================================================
 # Specific Plugins
 #==========================================================
-# wp-content/plugins/*
+#wp-content/plugins/*
 # !wp-content/plugins/my-single-file-plugin.php
 # !wp-content/plugins/my-directory-plugin/
 
 #==========================================================
 # Specific Themes
 #==========================================================
-# wp-content/themes/*
+wp-content/themes/*
 # !wp-content/themes/my-theme/
+
+#==========================================================
+# Other files
+#==========================================================
+sitemap.*
+*.sql
 
 
