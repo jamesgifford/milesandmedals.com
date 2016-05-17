@@ -29,7 +29,7 @@ node_modules
 #==========================================================
 # WP Core, except content
 #==========================================================
-#/*
+/*
 wp-config.php
 !.gitignore
 !wp-content/
@@ -50,7 +50,7 @@ wp-content/*
 #==========================================================
 # Specific Plugins
 #==========================================================
-#wp-content/plugins/*
+wp-content/plugins/*
 # !wp-content/plugins/my-single-file-plugin.php
 # !wp-content/plugins/my-directory-plugin/
 
@@ -58,7 +58,7 @@ wp-content/*
 # Specific Themes
 #==========================================================
 wp-content/themes/*
-# !wp-content/themes/my-theme/
+!wp-content/themes/themetrust-create-child/
 
 #==========================================================
 # Other files
