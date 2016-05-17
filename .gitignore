@@ -30,7 +30,7 @@ node_modules
 # WP Core, except content
 #==========================================================
 /*
-wp-config.php
+#wp-config.php
 !.gitignore
 !wp-content/
 # !media/
